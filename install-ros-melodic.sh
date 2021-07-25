@@ -14,7 +14,7 @@ echo "[Update the package]"
 sudo apt-get update
 
 echo "[Installing ROS and ROS Packages]"
-sudo apt-get install -y ros-melodic-desktop
+sudo apt-get install -y ros-melodic-desktop-full
 
 echo "[Making the catkin workspace and testing the catkin build]"
 #sudo apt-get install -y cmake python-rosinstall python-catkin-tools
